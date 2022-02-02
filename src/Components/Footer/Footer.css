@@ -1,0 +1,25 @@
+footer {
+  background-color: #1B1D18;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container a {
+  color: #95A3A3;
+  margin: 10px;
+  font-size: 30px;
+}
+.footer-container a:hover {
+  color: #fff;
+}
+p a {
+  color: #95A3A3;
+  text-decoration: none;
+}
+p a:hover {
+  color: #fff;
+  font-weight: bold;
+}

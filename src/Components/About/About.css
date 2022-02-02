@@ -1,0 +1,79 @@
+.about {
+  background: #2B2B2B;
+  padding: 96px 0 66px 0;
+  overflow: hidden;
+}
+.about_content {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profile_container {
+  width: 25%;
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+.profile {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  filter: grayscale(100%);
+}
+.about_me {
+  padding-right: 5%;
+  float: right;
+  width: 75%;
+}
+.about_h2 {
+  font: 22px/30px 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 12px 0;
+}
+p {
+  color: #7a7a7a;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+}
+p span {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.download {
+  width: 58.33%;
+  padding-top: 6px;
+}
+button{
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font: 15px 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: #444;
+}
+button:hover{
+  background: #1B1D18;
+  transition: all .4s ease-in-out;
+}
+.download a {
+  color: #fff;
+  text-decoration: none;
+  margin: 8px;
+}

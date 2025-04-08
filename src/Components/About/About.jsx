@@ -27,8 +27,6 @@ const About = () => {
           <p>
             <span>Luis Julio</span>
             <span>Santiago de Chile</span>
-            <span> +56-996536109</span>
-            <span>antonio.saurith@gmail.com</span>
           </p>
         </div>
         <div className='download'>
